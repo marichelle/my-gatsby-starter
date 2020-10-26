@@ -2,12 +2,10 @@ import React from 'react'
 
 import { FooterWrapper } from './styles'
 
-const Footer = () => {
+const Footer = ({ author }) => {
   return (
     <FooterWrapper>
-      © {new Date().getFullYear()}, Built with
-      {` `}
-      <a href="https://www.gatsbyjs.com">Gatsby</a>
+      &copy; {new Date().getFullYear()}, Built by {author}
     </FooterWrapper>
   )
 }
