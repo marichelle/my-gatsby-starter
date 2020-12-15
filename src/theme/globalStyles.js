@@ -29,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   button {
-    outline-color: ${({ theme }) => theme.color.transparent};
+    outline: 0;
   }
 `
 
